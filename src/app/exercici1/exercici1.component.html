@@ -1,0 +1,45 @@
+<h2>EXERCICI 1</h2>
+
+<h3 id ="EtiquetaH1">hola</h3>
+
+<h2>EXERCICI 2</h2>
+
+<p> la URL és: {{this.URL}}</p>
+
+<h2>EXERCICI 3</h2>
+
+<p id = "idElement">aaaaaaa</p>
+
+<h2>EXERCICI 4</h2>
+
+<table id="tabla" border="1">
+  <tr>
+    <td>Celda 1</td>
+    <td>Celda 2</td>
+    <td>Celda 3</td>
+  </tr>
+  <tr>
+    <td>Celda 4</td>
+    <td>Celda 5</td>
+    <td>Celda 6</td>
+  </tr>
+</table>
+
+<h2>EXERCICI 6</h2>
+
+<p id = "paragraf">poufbgpouwfbnp piubvpisuerbvpi spifvbwspiuvrbp</p>
+<p id = "resultat"></p>
+
+<h2>EXERCICI 7</h2>
+
+<p id = "foto"></p>
+
+<h2>EXERCICI 5 OPCIONAL</h2>
+
+<ul>
+  <li *ngFor="let element of arrayElements">
+    <span [style.fontSize.px]="midaLletra">{{ element.charAt(0) }}</span>{{ element.slice(1) }}
+  </li>
+</ul>
+
+<button (click)="augmentar()">Augmentar mida 1a lletra</button>
